@@ -69,7 +69,7 @@ async def alive_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("──「 𝗔𝗟𝗣𝗛𝗔-𝗕𝗔𝗕𝗬 」──", callback_data="helper")]]
+                [[InlineKeyboardButton("──「 𝐁ᴏᴛᴢ 𝐄ᴍᴩɪʀᴇ⚡️ 」──", callback_data="helper")]]
             ),
         )
     )
