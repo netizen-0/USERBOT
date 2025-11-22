@@ -7,7 +7,7 @@ API_ID = int(27079591) #optional
 API_HASH = "" #optional
 
 SUDO_USERS = list(map(int, ("").split()))
-OWNER_ID = int(6730956183)
+OWNER_ID = int(7538572906)
 MONGO_URL = "MONGO_URL"
 BOT_TOKEN = "BOT_TOKEN"
 ALIVE_PIC = 'https://telegra.ph/file/5badd2112e1e0cdf03a1f.jpg'
@@ -15,7 +15,7 @@ ALIVE_TEXT = None
 PM_LOGGER = None
 LOG_GROUP = None
 GIT_TOKEN = None #personal access token
-REPO_URL = "https://github.com/TEAMPURVI/ALPHA_USERBOT"
+REPO_URL = "https://github.com/netizen-0/USERBOT"
 BRANCH = "main" #don't change
  
 STRING_SESSION1 = ""
