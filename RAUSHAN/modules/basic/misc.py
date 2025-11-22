@@ -17,14 +17,14 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗔𝗟𝗣𝗛𝗔 ⚡️ **\n\n"
+        f"** ⚡️ 𝐁ᴏᴛᴢ 𝐄ᴍᴩɪʀᴇ⚡️  **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹𝗔ʟᴘʜᴀ 𝗪ᴏʀʟᴅ˼ ||](t.me/WORLD_ALPHA)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝗔𝗟𝗣𝗛𝗔](t.me/ALPHA_DPZ_WORLD)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝗥𝗔𝗨𝗦𝗛𝗔𝗡](t.me/ll_ALPHA_BABY_lll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹⎯𝁘ໍ𝃜𓆩〭〬‌𝐘ααяᴏ ↛ᴋɪ᪳᪼⃰⇢𝐌єнғιℓ«᭯𓆪⎯˼ ||](t.me/Yaaro_kimehfill)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐁ᴏᴛᴢ 𝐄ᴍᴩɪʀᴇ⚡️](t.me/BotzEmpire)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [?⃟≛⃝ 𝆺𝅥⃝🍃 𝗗꯭ᴇ꯭ᴠ꯭ᴀ꯭─꯭⃜❰⎯꯭⃜ 🌿•┼⃖‌ꭗ𓆪](t.me/medevu)"        
     )
 
 @Client.on_message(
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/TEAMPURVI/ALPHA_USERBOT\nFork & Give an ⭐")
+    await message.edit("lol ")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/TEAMPURVI")
+    await message.edit("https://gitHub.com/BotzEmpire")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
